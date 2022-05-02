@@ -8,10 +8,10 @@ myarr = []
 
 for i in range(numberOfTimes):
     value = 0
-    for i in range(4):
+    for j in range(4):
         digit = b_num.pop()
         if digit == '1':
-            value = value + pow(2, i)
+            value = value + pow(2, j)
         
     myarr.append(value)
         
